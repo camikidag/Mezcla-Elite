@@ -436,11 +436,11 @@ h1, h2, h3, h4, h5, h6, figure {
   
 }
 #fh5co-blog{
-  background: rgba(254, 254, 254, 0.959);
+  background: rgba(204, 190, 224, 0.959);
   padding: 7em 0;
   clear: both;}
   #fh5co-project{ 
-    background: rgba(248, 135, 15, 0.959);
+    background: rgba(255, 255, 255, 0.959);
     padding: 7em 0;
     clear: both;}
     #fh5co-projectsomos{
@@ -836,7 +836,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #d2cac3;
+  color: #ffffff;
 }
 .fh5co-project h2.galeria{
   font-size: 40px;
@@ -845,7 +845,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: ;
 }
 .fh5co-heading p {
-  color: #b9b9ba;
+  color: #ffffff;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
@@ -938,14 +938,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-started {
-  background: #232b33;
+  background: #1f262c;
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 #fh5co-started .btn {
   height: 54px;
