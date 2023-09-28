@@ -5,18 +5,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Bellota Text", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #232b33;
 }
 
 #page {
@@ -87,11 +90,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav {
   position: absolute;
-  top: 2em;
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 40px 0;
   z-index: 1001;
 }
 @media screen and (max-width: 768px) {
@@ -100,35 +101,29 @@ h1, h2, h3, h4, h5, h6, figure {
     top: 0;
   }
 }
-.fh5co-nav .left-menu,  .fh5co-nav .logo, .fh5co-nav .right-menu{
-  display: inline-flex;
-  padding: auto;
-  float: inline-end;
-  width: 40%;
-    
+.fh5co-nav .left-menu,
+.fh5co-nav .right-menu,
+.fh5co-nav .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fh5co-nav .left-menu{
+  width: 30%;
+  text-align: left;
 }
 
 
 .fh5co-nav .logo {
-  width: 15%;
-  margin: auto;
-  
+  width: 35%;
+}
 
+.fh5co-nav .logo img {
+  display: block;
+  margin: 0 auto; /* Centra la imagen dentro del contenedor del logo */
 }
-.fh5co-nav #fh5co-logo {
-  font-size: 20px;
-  color:#eea236;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav #fh5co-logo {
-    font-size: 22px;
-  }
-}
+
+
 .fh5co-nav a {
   padding: 5px 10px;
   color: #f79c2400;
@@ -436,7 +431,7 @@ h1, h2, h3, h4, h5, h6, figure {
   
 }
 #fh5co-blog{
-  background: rgba(204, 190, 224, 0.959);
+  background: #FD8A00;
   padding: 7em 0;
   clear: both;}
   #fh5co-project{ 
@@ -444,7 +439,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 7em 0;
     clear: both;}
     #fh5co-projectsomos{
-      background: #232b33;
+      background: #F7F7F7;
       padding: 7em 0;
       clear: both;}
 
@@ -513,13 +508,13 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: #f39863;
   padding-left: 10px;
   padding-right: 10px;
@@ -544,7 +539,6 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -591,7 +585,7 @@ h1, h2, h3, h4, h5, h6, figure {
   align-items: center; /* Esto alinea horizontalmente */
   text-align: center; /* Esto alinea el texto horizontalmente */
 
-  padding-left: 60px;
+  padding-left: 20px;
   padding-right: 20px;
   float: left;
   width: 100%;
@@ -842,7 +836,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: ;
+  color: black;
 }
 .fh5co-heading p {
   color: #ffffff;
@@ -857,14 +851,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-testimonial {
   position: relative;
   margin-top: 150px;
-}
-#fh5co-testimonial .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgb(33 41 48 / 47%);
 }
 
 #fh5co-testimonial .box-testimony {
@@ -972,7 +958,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #232b33;
+  background: #CFC0DC;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1086,7 +1072,6 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
